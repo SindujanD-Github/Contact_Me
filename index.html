@@ -1,8 +1,12 @@
 <form action="https://api.web3forms.com/submit" method="POST">
   <input type="hidden" name="access_key" value="c726140d-70f6-4cfa-b4cd-696b4a6af660">
- <form style="max-width:400px; margin:40px auto; padding:25px; background:#fff; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); font-family:Arial, sans-serif;">
+<form style="max-width:400px; margin:40px auto; padding:25px; background:#fff; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); font-family:Arial, sans-serif;">
 
-  <h2 style="text-align:center; color:#333;">Contact Me</h2>
+  <h2 style="text-align:center; color:#333; margin-bottom:10px;">Contact Me</h2>
+
+  <p style="text-align:center; color:#666; font-size:14px; margin-bottom:20px;">
+    If you wish to contact me, please submit your info and I'll get back to you as soon as possible. Thank you for showing interest in the profile.
+  </p>
 
   <input
     type="text"
@@ -29,13 +33,21 @@
     placeholder="Your Message"
     rows="5"
     required
-    style="width:100%; padding:12px; margin-bottom:15px; border:1px solid #ccc; border-radius:5px; box-sizing:border-box; font-size:16px; resize:vertical;"></textarea>
+    style="width:100%; padding:12px; margin-bottom:20px; border:1px solid #ccc; border-radius:5px; box-sizing:border-box; font-size:16px; resize:vertical;"></textarea>
 
-  <button
-    type="submit"
-    style="width:100%; padding:12px; background:#007BFF; color:#fff; border:none; border-radius:5px; font-size:16px; cursor:pointer;">
-    Submit
-  </button>
+  <div style="display:flex; gap:10px;">
+    <button
+      type="submit"
+      style="flex:1; padding:12px; background:#007BFF; color:#fff; border:none; border-radius:5px; font-size:16px; cursor:pointer;">
+      Submit
+    </button>
+
+    <button
+      type="reset"
+      style="flex:1; padding:12px; background:#6c757d; color:#fff; border:none; border-radius:5px; font-size:16px; cursor:pointer;">
+      Clear
+    </button>
+  </div>
 
 </form>
 </form>
